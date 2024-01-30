@@ -1,0 +1,55 @@
+# ------------------------------
+
+baseURL = "https://shanjijian.github.io/"
+languageCode = "zh-cn"
+
+author = "山己见"
+#DefaultContentLanguage = "zh-cn"
+#paginate = 10   #20230831 Control the number of pages per pagination
+#ignoreErrors = ["error-remote-getjson"]
+#enableInlineShortcodes = true
+
+# ------------------------------
+
+
+title = "在北山上"
+theme = "hugo-bearblog"
+
+
+[params]
+  #color = 'linen'
+  #github = 'shanjijian'
+  #rss = true
+
+  #avatar = 'https://cdn.discordapp.com/attachments/1122477941683671060/1201411908595622028/shanjijian.png?ex=65c9b908&is=65b74408&hm=4be7f7e099eb4eb02cc3615353951bdf359e613a50db77bcd1fc4471a2dc18dc&'
+  name = '山己见'
+  bio = '明日之花，绽放遍野。'
+
+# ------------------------------
+
+
+
+# 配置网站菜单
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 10
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
+  [[menu.main]]
+    identifier = "friends"
+    name = "Friends"
+    url = "/friends/"
+    weight = 10
+
+
+# 配置系列
+#[taxonomies]
+#category = "categories"
+#tag = "tags"
+#series = "series"
