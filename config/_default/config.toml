@@ -46,10 +46,3 @@ theme = "hugo-bearblog"
     name = "Friends"
     url = "/friends/"
     weight = 10
-
-
-# 配置系列
-#[taxonomies]
-#category = "categories"
-#tag = "tags"
-#series = "series"
