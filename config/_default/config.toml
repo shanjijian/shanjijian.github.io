@@ -13,7 +13,7 @@ author = "山己见"
 
 
 title = "在北山上"
-theme = "hugo-bearblog"
+theme = "hugo-dead-simple"
 
 
 [params]
