@@ -72,7 +72,3 @@ theme = "archie"
     name = "Friends"
     url = "/friends/"
     weight = 10
-  [[menu.main]]
-    name = "Tags"
-    url = "/tags"
-    weight = 4
