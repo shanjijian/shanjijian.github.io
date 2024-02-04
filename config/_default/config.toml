@@ -25,19 +25,6 @@ theme = "archie"
   name = '山己见'
   bio = '明日之花，绽放遍野。'
 
-  pygmentsstyle = "monokai"
-  pygmentscodefences = true
-  pygmentscodefencesguesssyntax = true
-
-  disqusShortname = "yourDisqusShortname"
-
-  paginate=3 # articles per page
-
-  mode="auto" # color-mode → light,dark,toggle or auto
-  useCDN=false # don't use CDNs for fonts and icons, instead serve them locally.
-  subtitle = "Minimal and Clean [blog theme for Hugo](https://github.com/athul/archie)"
-  mathjax = true # enable MathJax support
-  katex = true # enable KaTeX support
   
   
   # Social Tags
