@@ -13,7 +13,7 @@ author = "山己见"
 
 
 title = "在北山上"
-theme = "hugo-dead-simple"
+theme = "archie"
 
 
 [params]
@@ -25,12 +25,39 @@ theme = "hugo-dead-simple"
   name = '山己见'
   bio = '明日之花，绽放遍野。'
 
+  pygmentsstyle = "monokai"
+  pygmentscodefences = true
+  pygmentscodefencesguesssyntax = true
+
+  disqusShortname = "yourDisqusShortname"
+
+  paginate=3 # articles per page
+
+  [params]
+    mode="auto" # color-mode → light,dark,toggle or auto
+    useCDN=false # don't use CDNs for fonts and icons, instead serve them locally.
+    subtitle = "Minimal and Clean [blog theme for Hugo](https://github.com/athul/archie)"
+    mathjax = true # enable MathJax support
+    katex = true # enable KaTeX support
+
+  # Social Tags
+
+  [[params.social]]
+  name = "GitHub"
+  icon = "github"
+  url = "https://github.com/shanjijian"
+
+
 # ------------------------------
 
 
 
 # 配置网站菜单
 [menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
   [[menu.main]]
     identifier = "posts"
     name = "Posts"
@@ -46,3 +73,7 @@ theme = "hugo-dead-simple"
     name = "Friends"
     url = "/friends/"
     weight = 10
+  [[menu.main]]
+    name = "Tags"
+    url = "/tags"
+    weight = 4
